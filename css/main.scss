@@ -90,9 +90,20 @@ div.home h1, article h1
 
 div.post-list-item
 {
-    display: flex;
+    display: inline-flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
+}
+
+div.post-title
+{
+    display: inline-block;
+}
+
+div.post-date
+{
+    display: inline-block;
 }
 
 footer
