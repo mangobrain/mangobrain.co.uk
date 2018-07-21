@@ -10,7 +10,7 @@ layout: default
                     <div class="post-title">
                         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                     </div>
-                    <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+                    <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
                 </div>
             </li>
         {% endfor %}
