@@ -80,9 +80,41 @@ div.home, article
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-div.home h1, article h1
+div.frontpage-about
+{
+    background-color: $grey-color;
+    border-radius: 10px;
+    display: block;
+    padding: 2%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 2% 2% 2%;
+    text-align: center;
+}
+
+div.home h1, div.frontpage-about h1, article h1
 {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+div.frontpage-about h1
+{
+    margin-bottom: 0;
+}
+
+div.fa-wrap
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 98%;
+    margin: 0 1%;
+}
+
+div.fa-wrap img
+{
+    vertical-align: middle;
+    margin-right: 1em;
 }
 
 div.post-list-item
