@@ -22,3 +22,7 @@ gem "jekyll", "3.2.1"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+group :jekyll_plugins do
+  gem "jekyll-paginate-v2"
+end

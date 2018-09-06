@@ -26,3 +26,9 @@ timezone: Europe/London
 # Build settings
 markdown: kramdown
 #theme: minima
+gems: [jekyll-paginate-v2]
+
+# Pagination
+pagination:
+    enabled: true
+    per_page: 10
