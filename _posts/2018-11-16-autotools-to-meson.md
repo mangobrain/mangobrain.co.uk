@@ -6,7 +6,7 @@ comments: true
 categories: [software development]
 ---
 In recent years, it seems everyone wants to learn to code. This is great, but
-unfortunately, only only one piece of the puzzle. If you're coding in a
+unfortunately, only one piece of the puzzle. If you're coding in a
 traditional compiled language like C or C++, one obvious thing to consider is
 how that code actually gets compiled. It's not an exciting topic, but one of
 many more boring aspects of software development which, if you want to progress
