@@ -80,7 +80,7 @@ piece of real software with real dependencies.
 
 Instead of this:
 
-```m4
+```shell
 AC_PREREQ([2.69])
 
 dnl # Initialise autoconf and automake
@@ -211,3 +211,5 @@ Don't take my word for it. Have a browse around the Meson documentation, use
 the Infector repository as a working example if you wish, and just Do It.
 
 Please?
+
+Update: [part 2 here](/software development/2018/12/08/autotools-to-meson-2.html)
