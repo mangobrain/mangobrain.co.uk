@@ -86,7 +86,7 @@ Hello, world!
 ## The build directory: configuration & options
 
 The first line of the above is the actual Meson invocation:
-_meson setup <source directory> <build directory>_. This produces a build
+_meson setup \<source directory\> \<build directory\>_. This produces a build
 directory, from where you can inspect & alter the build configuration, set any
 project-specific compile-time options, build & install the project, and produce
 tarballs for distribution.
@@ -254,7 +254,7 @@ phil@hue w64-build $ wine ./src/hellow.exe
 Hello, world!
 ```
 
-Yep - just provide the _--cross-file_ argument to _meson setup_, and away you
+Yep - just provide the _\-\-cross-file_ argument to _meson setup_, and away you
 go. Note the "Cross C++ compiler" line in the output, the compilation to
 hellow.exe, and the usage of [Wine](https://www.winehq.org/) to run it.
 
